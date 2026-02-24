@@ -21,7 +21,7 @@ const EditPage = () => {
 
         try {
             const response = await fetch('/api/write', {
-                method: 'POST',
+                method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
                 },
